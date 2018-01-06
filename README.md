@@ -28,7 +28,7 @@ If data entry fails, you will be given the option to try again immediately (e.g.
 
 *(If your script says a Beeminder Update failed and you are connected to the internet and your credentials are correct, it is probably because of the characters in the comment. Click "Save Update For Later" then delete the last line of `/usr/local/etc/beeminder-applescript/unentered-data.txt` to resolve the issue.)*
 
-## How it Works
+## How It Works
 
 All functions within Beeminder.applescript are documented—check them out!
 
