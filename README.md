@@ -18,6 +18,8 @@ From any AppleScript:
   
     tell script "Beeminder" to enter_datapoint("writing", 25, "Spent 25 minutes writing!")
 
+This will post 25 minutes (or whatever units your goal uses) to your `writing` goal with the comment "Spent 25 minutes writing!".
+
 ***Caution!*** For now, only use letters, numbers, spaces, and `,.!:;` (**NO backslashes, quotes of any variety, or line breaks**) in comments (e.g. "Spent 25 minutes writing!" in the example above) to avoid unexpected behavior.
 
 The first time `enter_datapoint` is called, you will be prompted for your Beeminder username and auth token (available [here](https://www.beeminder.com/api/v1/auth_token.json)).
